@@ -1,0 +1,810 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-27="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Has">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">Possède</dc:description>
+        <rdfs:label xml:lang="fr">Possède</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Use">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">utiliser</dc:description>
+        <rdfs:label xml:lang="fr">utiliser</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_available_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_available_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">permet de connaitre le canal de diffusion d&apos;un chatbot.</dc:description>
+        <rdfs:label xml:lang="fr">est disponible sur</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_built_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_built_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">permet de connaitre la plateforme qui a créé le chatbot.</dc:description>
+        <rdfs:label xml:lang="fr">est construit par</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_diffused_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_diffused_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">permet de savoir sur quel bot connector est envoyé la réponse.</dc:description>
+        <rdfs:label xml:lang="fr">est diffusé par</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_expert_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_expert_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">permet de déterminer le domain d&apos;expertise d&apos;un chatbot.</dc:description>
+        <rdfs:label xml:lang="fr">est expert sur</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_extracted_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_extracted_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">permet de savoir sur quel bot connector est extraite la requête.</dc:description>
+        <rdfs:label xml:lang="fr">est extrait par</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Receive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Receive">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">recevoir</dc:description>
+        <rdfs:label xml:lang="fr">recevoir</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Request -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Request">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">requête</dc:description>
+        <rdfs:label xml:lang="fr">requête</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Send -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Send">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">envoyer</dc:description>
+        <rdfs:label xml:lang="fr">envoyer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Solve -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Solve">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">permet de savoir quel problème resoud un chatbot.</dc:description>
+        <rdfs:label xml:lang="fr">resoudre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Speak -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Speak">
+        <dc:description xml:lang="fr">permet de savoir quel language chatbot communique.</dc:description>
+        <rdfs:label xml:lang="fr">parler</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Trigger -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Trigger">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="fr">déclencher</dc:description>
+        <rdfs:label xml:lang="fr">déclencher</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#test -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#test"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#API -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#API">
+        <dc:description>C’est protocoles standardisés de communication entre programmes. Les consommateurs utilisent ensuite cette donnée pour faire fonctionner leurs services. les chatbots utilisent les api afin de le permettre de récupérer des données nécessaires à la génération d’une réponse.</dc:description>
+        <rdfs:label xml:lang="fr">API</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#API_interne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#API_interne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#API"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#open_API"/>
+        <dc:description>Répondre à des questions plus complexes requiert un accès au Système d’Information et l’exploitation des données personnelles qu’il contient. On parle de consulter le solde de son compte bancaire ou d’exécuter un virement. On se frotte  alors aux problématiques sensibles d’identification, d’authentification et d’autorisation de l’utilisateur pour accéder à ses données confidentielles.</dc:description>
+        <rdfs:label xml:lang="fr">API interne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Algorithme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Algorithme">
+        <dc:description>Un algorithme est une suite finie et non ambiguë d’opérations ou d&apos;instructions permettant de résoudre un problème ou d&apos;obtenir un résultat.</dc:description>
+        <rdfs:label xml:lang="fr">Algorithme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Algorithme_deep_learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Algorithme_deep_learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Algorithme"/>
+        <dc:description>Suite finie et non ambiguë d’opérations ou d&apos;instructions permettant de résoudre un problème résolu par l’apprentissage profond et les réseaux de neurones.</dc:description>
+        <rdfs:label xml:lang="fr">Alogorithme deep learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Apprentissage_automatique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Apprentissage_automatique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IA_faible"/>
+        <dc:description>L&apos;apprentissage automatique ou apprentissage statistique est un champ d&apos;étude de l’intelligence artificielle permettant aux ordinateurs d’apprendre et d’apporter des réponses sans avoir été programmés explicitement à cet effet. Pour apprendre et se développer, les ordinateurs ont toutefois besoin de données à analyser et sur lesquelles s’entraîner afin de se calibrer et renvoyer une réponse la plus proche de la réalité.</dc:description>
+        <rdfs:label xml:lang="fr">Apprentissage automatique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Apprentissage_profond -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Apprentissage_profond">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Apprentissage_automatique"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Algorithme_deep_learning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Le deep learning ou apprentissage profond est un type d&apos;intelligence artificielle dérivé du machine learning. Il s&apos;appuie sur un réseau de neurones artificiels s&apos;inspirant fortement du cerveau humain. Ce réseau est composé de dizaines de « couches » de neurones, chacune recevant et interprétant les informations de la couche précédente. Le système apprendra par exemple à reconnaître les lettres avant de s&apos;attaquer aux mots dans un texte.</dc:description>
+        <rdfs:label xml:lang="fr">Apprentissage profond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Bot_connector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Bot_connector">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Canal_de_diffusion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Le Bot connector répond à la complexité de s’intégrer simplement dans plusieurs plateformes de conversations au travers d’une seule et même interface. Il évite donc de devoir développer et maintenir un bot multi plateformes ou une version spécifique du bot adaptée aux spécificités de chacune des plateformes possibles(de type slack, messenger, skype, etc ...). Les enjeux et la valeur d’un bot ne sont clairement pas là. Cela permet aux développeurs de bots de toucher rapidement et sans effort un large public.</dc:description>
+        <rdfs:label xml:lang="fr">Bot connector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Canal_de_diffusion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Canal_de_diffusion">
+        <dc:description>Ce sont les différents « moyens » de conversation que l’utilisateur peut choisir pour échanger avec le bot. Chaque canal utilise un protocole dédié, qu’il soit public ou non. S’il est plutôt simple de s’interfacer avec une seule plateforme, offrir à l’utilisateur le choix de son canal de communication exige de multiplier les interfaces, et la maîtrise de tous les protocoles devient réellement complexe.</dc:description>
+        <rdfs:label xml:lang="fr">Canal de diffusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_built_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Platforme_de_création_de_chatbot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_expert_on"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Domain_d&apos;activités"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Solve"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Problème"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Speak"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Language"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Le terme &quot;chatbot&quot; vient de la contraction des termes anglais &quot;chat&quot; &amp; &quot;robot&quot; autrement dit un robot qui communique sous la forme de chat. C’est un agent conversationnel programmé pour simuler une conversation intelligente en langage naturel avec un utilisateur humain. Il apparaît sous la forme d&apos;une zone de dialogue. Les chatbots colonisent les réseaux sociaux et site web pour aider les utilisateurs à résoudre un problème souvent causé par le manque d’intervention humaine (pas assez de personnelle, horaire de travail, etc ...). ils sont utilisés dans des secteurs d’activités très variés : finance, assurance, voyage …
+Ces robots peuvent ainsi interagir avec un utilisateur sur des canaux de diffusion (messenger, slack, etc … )ou sur des sites propriétaires .</dc:description>
+        <rdfs:label xml:lang="fr">Chatbot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot_intelligent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot_intelligent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Dialogue_manager"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Les bots intelligents utilisent la technologie de compréhension du langage naturel. L’utilisateur peut donc échanger avec le robot avec ses propres mots, que le celui ci va intégrer et comprendre pour répondre de manière la plus précise possible. L&apos;interaction est proche d’une discussion en Chat direct avec un humain derrière son écran. Contrairement aux chatbots simpliste qui  interagissent  uniquement à partir d&apos;éléments graphiques utilisant du texte, des boutons, des carrousels. La discussion est guidée par l’agent conversationnel d’après scénario préétabli de réponses et d’échanges balisés. Il nous suffit de cliquer sur des cases afin de dialoguer. l’utilisateur ne peut pas utiliser ses propres mots pour communiquer. Ses réponses étant prédéfinies, sous forme de boutons, l&apos;interaction peut rapidement sembler limitée.</dc:description>
+        <rdfs:label xml:lang="fr">Chatbot intelligent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Dialogue_manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Dialogue_manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Receive"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Requête"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Request"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#API_interne"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Request"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#open_API"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Send"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Réponse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Use"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Natural_language_processing_manager"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Dialogue manager : permet d&apos;établir un dialogue entre deux agents (l’utilisateur et le chatbot). Le dialogue manager reçoit des messages de l&apos;utilisateur et lui retourne une réponse construite avec des données spécifiques après à interpréter correctement le contenu de sa demande. Il permet de faire le lien entre l’utilisateur et le robot.
+
+Le dialogue manager est avant tout un workflow conversationnel, qui est déroulé pendant l’échange avec l’utilisateur afin de lui apporter les réponses adaptées à ses demandes. Le bot est au centre de l’architecture, interfacé avec le NLP Manager qui lui donne le sens de la demande utilisateur et les API qui lui remontent l’information dont il a besoin.</dc:description>
+        <rdfs:label xml:lang="fr">Dialogue manager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IA_faible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IA_faible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Intelligence_artificielle"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IA_forte"/>
+        <dc:description>L&apos;intelligence artificielle faible :  est une intelligence artificielle non-sensible qui se concentre sur une tâche précise. L&apos;IA faible est définie en contraste avec l&apos;IA forte. Tous les systèmes actuellement existants sont considérés comme des intelligences artificielles faibles.</dc:description>
+        <rdfs:label xml:lang="fr">IA faible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IA_forte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IA_forte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Intelligence_artificielle"/>
+        <dc:description>une machine dotée de conscience, de sensibilité et d&apos;esprit ou l&apos;intelligence artificielle est générale. C’est une machine capable d&apos;appliquer l&apos;intelligence à tout problème plutôt qu&apos;un problème spécifique.</dc:description>
+        <rdfs:label xml:lang="fr">IA forte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Intelligence_artificielle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Intelligence_artificielle">
+        <dc:description>Intelligence artificielle : est  l&apos;ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler l&apos;intelligence humaine.</dc:description>
+        <rdfs:label xml:lang="fr">Intelligence artificielle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Language">
+        <dc:description>Le langage est une fonction de l’expression de la pensée permettant de communiquer entre les humains. Cette fonction est mise en oeuvre par la parole et l’écriture. Un chatbot doit être capable de communiquer dans une langue avec l’utilisateur avec lequel il est en train d&apos;interagir.</dc:description>
+        <rdfs:label xml:lang="fr">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Message -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Message">
+        <dc:description>message : est une information écrite ou oral transmise par un messager.</dc:description>
+        <rdfs:label xml:lang="fr">Message</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Natural_language_processing_manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Natural_language_processing_manager">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Use"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Algorithme_deep_learning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Trigger"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Scénario"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Le Natural Language Processing est un domaine de l’intelligence artificielle centré autour de la logique conversationnelle. Il regroupe différents concepts qui donnent au bot sa capacité à comprendre le sens d’une phrase, quelles que soient les fautes de frappe ou les errances orthographiques et grammaticales de l’auteur. Cette phase d’interprétation requiert une étape d’entraînement pendant laquelle le NLP Manager est confronté à des cas réels. Il s’agit de le corriger à chaque erreur afin qu’il puisse « apprendre » à reconnaître le sens des phrases qui lui seront soumises. Petit enfant deviendra grand.
+Plusieurs NLP du marché nous ont montré leur pertinence : recast.ai, api.ai, davy</dc:description>
+        <rdfs:label xml:lang="fr">Natural language processing manager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Platforme_de_création_de_chatbot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Platforme_de_création_de_chatbot">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-27#Has"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Bot_connector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Plateforme de création de chatbot permet aux utilisateurs de créer leurs propres chatbots personnalisés et de le mettre en service sur les canaux de diffusion de leur choix.</dc:description>
+        <rdfs:label xml:lang="fr">Platforme de création de chatbot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Problème -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Problème">
+        <dc:description>C’est une difficulté qui n’arrive pas à être résolu afin d’obtenir un résultat attendu. C’est une situation instable qui doit être résolu en exigeant une prise de décision.
+La création de chatbot et très souvent la solution à une forte demande de prestation humaine.</dc:description>
+        <rdfs:label xml:lang="fr">Problème</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Requête -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Requête">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Message"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_extracted_by"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Bot_connector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Réponse"/>
+        <dc:description>requête : est un message transmis par l’utilisateur vers le chatbot.</dc:description>
+        <rdfs:label xml:lang="fr">Requête</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Réponse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Réponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Message"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Is_diffused_by"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Bot_connector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description>Réponse : est un message créé par le chatbot, destiné à l’utilisateur avec lequel il est en train d&apos;interagir.</dc:description>
+        <rdfs:label xml:lang="fr">Réponse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Scénario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Scénario">
+        <dc:description>L’utilisation d’arbres de décision est une étape clé pour planifier chaque interaction du robot avec l’utilisateur. Chaque sous arbre de décision est en réalité un scénario qui correspond à une suite d’étapes, d’actions à mener et de décisions à prendre en fonction d’un contexte. Une fois l’étape du scénario défini des requêtes vers api est effectué pour récupérer des données permettant la constitution d’une réponse.</dc:description>
+        <rdfs:label xml:lang="fr">Scénario</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#open_API -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#open_API">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#API"/>
+        <dc:description>Il s’agit d’API publiques qui permettent à tout un chacun de consommer des données dites « ouvertes », proposées par des acteurs tels que Météo France, SNCF ou RATP.
+Beaucoup de bots profitent de ces APIs pour construire des réponses riches et diversifiées à l’utilisateur sur ses préoccupations quotidiennes – et cela bien plus intuitivement qu’au travers d’un site web.</dc:description>
+        <rdfs:label xml:lang="fr">Open API</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Domain_d&apos;activités -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Domain_d&apos;activités">
+        <dc:description>Domaine d’activité : est le domaine de spécialité du chatbot. Un robot n’est pas encore aujourd’hui capable de répondre à tous les sujets de conversation. Le chatbot sera donc capable d’apporter des réponses cohérente par rapport à un seul type de marché pour lequel il aura été programmé.</dc:description>
+        <rdfs:label xml:lang="fr">Domain d&apos;activités</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Adidas_Chatbot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Adidas_Chatbot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot_intelligent"/>
+        <Is_available_on rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Messenger"/>
+        <Is_built_by rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatfuel"/>
+        <Is_expert_on rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vente"/>
+        <Solve rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Demande_simultané"/>
+        <Solve rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Disponibilité"/>
+        <Speak rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Français"/>
+        <test>wa</test>
+        <dc:description>Adidas chatbot est le chatbot de Adidas permettant aux utilisateurs d’obtenir des informations sur les prix des marchandises mais aussi d’acheter des produits recommandés par chatbot. Le chatbot est disponible sur messenger.</dc:description>
+        <rdfs:label xml:lang="fr">Adidas Chatbot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Anglais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Anglais">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Language"/>
+        <dc:description>L&apos;anglais est une langue indo-européenne germanique originaire d&apos;Angleterre qui tire ses racines de langues du nord de l&apos;Europe dont le vocabulaire a été enrichi et la syntaxe et la grammaire modifiées par le français anglo-normand apporté par les Normands, puis par le français avec les Plantagenêt. La langue anglaise est ainsi composée d&apos;environ 60 à 70 % de mots d&apos;origine normande et française.</dc:description>
+        <rdfs:label xml:lang="fr">Anglais</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Assistant_personnel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Assistant_personnel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Problème"/>
+        <dc:description>L&apos;objectif d&apos;un assistant personnel est d&apos;aider un individu dans l&apos;exécution de certaines tâches comme la gestion d&apos;un agenda ou la gestion d&apos;un carnet d&apos;adresses.</dc:description>
+        <rdfs:label xml:lang="fr">Assistant personnel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatfuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatfuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Platforme_de_création_de_chatbot"/>
+        <dc:description>Plus de 360 000 chatbots ont été créés à l&apos;aide de Chatfuel, desservant plus de 17 millions d&apos;utilisateurs dans le monde. Un bloc est un outil de construction de base d&apos;un bot. Il consiste en une ou plusieurs cartes de message qui sont envoyées ensemble à un utilisateur de bot. L&apos;étape suivante consiste à relier des blocs les uns aux autres à l&apos;aide de boutons de cartes de texte ou de cartes de galerie. De nombreux plugins ont été développés: recherche Google, recherche Bing, API JSON, importation RSS, plugin Subscribe, Digest, IFTTT, Zapier, entrée utilisateur et LiveChat. Chatfuel prend en charge environ 50 langues et est gratuit.</dc:description>
+        <rdfs:label xml:lang="fr">Chatfuel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chinois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chinois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Language"/>
+        <dc:description>Les langues chinoises souvent désignées dans leur ensemble sous le nom de « chinois », appartiennent à la famille des langues sino-tibétaines. Dans leur caractère le plus universel, on considère la langue écrite, transcendant la prononciation des divers parlers. La langue parlée dans son caractère le plus général est le plus souvent appelée hanyu, soit « langue des Han », même si d&apos;autres groupes ethniques ont progressivement adopté cette langue. Il existe de nombreux dialectes en chinois et la langue commune est le mandarin.</dc:description>
+        <rdfs:label xml:lang="fr">Chinois</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Cortana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Cortana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot_intelligent"/>
+        <Is_available_on rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Windows"/>
+        <Is_built_by rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Microsoft_Bot_Framework"/>
+        <Is_expert_on rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vie_quotidienne"/>
+        <Solve rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Assistant_personnel"/>
+        <Speak rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Anglais"/>
+        <Speak rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chinois"/>
+        <Speak rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Français"/>
+        <dc:description>Cortana est le nom de l&apos;assistant personnel intelligent développé par Microsoft pour sa plateforme Windows. Cortana peut définir des rappels, reconnaître la voix naturelle sans nécessiter une saisie au clavier et répondre aux questions à l&apos;aide des informations du moteur de recherche Bing.</dc:description>
+        <rdfs:label xml:lang="fr">Cortana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Demande_simultané -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Demande_simultané">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Problème"/>
+        <dc:description>un humain n’est pas capable de discuter avec plusieurs personnes en même temps alors que le chatbot lui en est capable. C’est l’un des problèmes qu’un chatbot peut résoudre.</dc:description>
+        <rdfs:label xml:lang="fr">Demande  simultané</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Disponibilité -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Disponibilité">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Problème"/>
+        <dc:description>les chatbots résolvent des problèmes de disponibilité du personnel des entreprises. En effet un chatbot est capable de répondre à une demande utilisateur à n’importe quelle heure et quel jour de la semaine. Un employé à des horaires de travail et n’est pas disponible pour répondre en dehors.</dc:description>
+        <rdfs:label xml:lang="fr">Disponibilité</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Français -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Français">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Language"/>
+        <dc:description>Le français est une langue indo-européenne de la famille des langues romanes. Le français s&apos;est formé en France et est en 2018 parlé sur tous les continents par environ 300 millions de personnes dont 235 millions l&apos;utilisent quotidiennement, 90 million étant des locuteurs natifs. C’est une des deux langues officiel parlé au nations unies.</dc:description>
+        <rdfs:label xml:lang="fr">Français</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IBM_Watson_conversation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IBM_Watson_conversation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Platforme_de_création_de_chatbot"/>
+        <dc:description>IBM Watson est la plate-forme ouverte pour accélérer l&apos;adoption de l&apos;IA de confiance. L’un des composants les plus importants de Watson est un service de conversation. Il repose sur un réseau de neurones (un milliard de mots Wikipedia), comprend les intentions, interprète les entités et les dialogues, prend en charge les langues anglaise et japonaise et fournit des outils de développement tels que Node SDK (Kit de développement logiciel), Java SDK, Python SDK, iOS SDK et SDK Unity.</dc:description>
+        <rdfs:label xml:lang="fr">IBM Watson Conversation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Messenger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Messenger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Canal_de_diffusion"/>
+        <dc:description>Facebook Messenger est un système de messagerie instantanée créé par la société Facebook, et incorporé au réseau social Facebook.</dc:description>
+        <rdfs:label xml:lang="fr">Messenger</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Microsoft_Bot_Framework -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Microsoft_Bot_Framework">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Platforme_de_création_de_chatbot"/>
+        <dc:description>Microsoft bot framework est une plateforme de création de chatbot conçu par microsoft.</dc:description>
+        <rdfs:label xml:lang="fr">Microsoft Bot Framework</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#SNCF_chatbot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#SNCF_chatbot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatbot_intelligent"/>
+        <Is_available_on rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Messenger"/>
+        <Is_available_on rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#SNCF_site_web"/>
+        <Is_built_by rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IBM_Watson_conversation"/>
+        <Is_expert_on rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Voyage"/>
+        <Solve rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Demande_simultané"/>
+        <Solve rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Disponibilité"/>
+        <Speak rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Français"/>
+        <dc:description>sncf chatbot est le chatbot de la sncf permettant aux utilisateurs d’obtenir des informations sur les horaires de train mais aussi d’en réserver et d’obtenir des confirmations d’achat. Le chatbot est disponible sur le site internet de la sncf.</dc:description>
+        <rdfs:label xml:lang="fr">SNCF Chatbot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#SNCF_site_web -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#SNCF_site_web">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Canal_de_diffusion"/>
+        <dc:description>sncf site web est le site internet de la sncf permettant notamment de réserver des billets de train.</dc:description>
+        <rdfs:label xml:lang="fr">SNCF site web</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Domain_d&apos;activités"/>
+        <dc:description>une vente est l&apos;opération par laquelle un bien ou un droit détenu par un vendeur est cédé à un acheteur contre une somme d’argent.</dc:description>
+        <rdfs:label xml:lang="fr">Vente</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vie_quotidienne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vie_quotidienne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Domain_d&apos;activités"/>
+        <dc:description>La notion de vie quotidienne est un aspect fondamental de l&apos;activité des êtres humains : la façon dont les gens agissent, sentent et pensent, d&apos;une manière générale, chaque « jour », ou durant un cycle de 24 heures.</dc:description>
+        <rdfs:label xml:lang="fr">Vie quotidienne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Voyage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Voyage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Domain_d&apos;activités"/>
+        <dc:description>Un voyage est un déplacement dans l&apos;espace, contraint, effectué vers un point plus ou moins éloigné dans un but personnel (par exemple tourisme) ou professionnel (affaires) ou autre (guerre, réfugiés politiques ou climatiques), déplacements motivés par des activités sportives ou socioculturelles ou de grands événements.</dc:description>
+        <rdfs:label xml:lang="fr">Voyage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Windows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Windows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Canal_de_diffusion"/>
+        <dc:description>une interface graphique unifiée produite par Microsoft, qui est devenue ensuite une gamme de systèmes d’exploitation à part entière, principalement destinés aux ordinateurs compatibles PC.</dc:description>
+        <rdfs:label xml:lang="fr">Windows</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Adidas_Chatbot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Cortana"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#SNCF_chatbot"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Anglais"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chinois"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Français"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Assistant_personnel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Demande_simultané"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Disponibilité"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Chatfuel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#IBM_Watson_conversation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Microsoft_Bot_Framework"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Messenger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#SNCF_site_web"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Windows"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Vie_quotidienne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/2018/10/untitled-ontology-31#Voyage"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
